@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/stil.css">
+    <title>Despre.html</title>
+</head>
+
+<body>
+    <h1>Magazin haine</h1>
+    <br>
+    <p><b>Magazin</b> online <i>pentru haine second hand</i>.</p>
+    <img src="imagini/download.jfif">
+    <br>
+    <table id="tabel">
+        <tr>
+            <th align="left"><b>Geci</b></th>
+            <th align="left"><b>Tricouri</b></th>
+            <th align="left"><b>Încălțăminte</b></th>
+        </tr>
+        <tr>
+            <th align="left"><b>Calvin Klein</b></th>
+            <th align="left"><b>Zara</b></th>
+            <th align="left"><b>Nike</b></th>
+        </tr>
+        <tr>
+            <th align="left"><b>The North Face</b></th>
+            <th align="left"><b>Tommy Hilfiger</b></th>
+            <th align="left"><b>Puma</b></th>
+        </tr>
+    </table>
+    <br>
+    <p>Doriți un articol inexistent pe site?</p>
+    <form action="/action_page.php">
+        <label for="narticol">Nume articol:</label>
+        <input type="text" id="narticol" name="narticol" value="articol">
+        <br>
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" value="nume">
+        <br>
+        <label for="prenume">Prenume</label>
+        <input type="text" id="prenume" name="prenume" value="prenume">
+        <br>
+        <label for="categorie">Alege o categorie:</label>
+        <select name="categorie" id="categorie">
+            <option value="Geci">Geci</option>
+        <option value="Tricouri">Tricouri</option>
+        <option value="Incaltaminte">Încălțăminte</option>
+        </select>
+        <br>
+        <label for="pwd">Parola:</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+        <input type="checkbox" id="conditii" name="conditii" value="conditii">
+        <label for="conditii">Sunt de acord cu condițiile</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <ul>
+        <li>Geci</li>
+        <li>Tricouri</li>
+        <li>Încălțăminte</li>
+    </ul>
+    <br>
+    <iframe src="persoane.xml" title="W3schools.com"></iframe>
+</body>
+</html>
